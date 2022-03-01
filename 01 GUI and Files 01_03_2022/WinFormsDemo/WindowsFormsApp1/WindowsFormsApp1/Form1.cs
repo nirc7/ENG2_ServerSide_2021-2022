@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
             string name= txtName.Text;
             name = "Hello " + name;
             lblResult.Text = name;
+            MessageBox.Show("simple"); 
         }
 
         private void cmbNumbers_SelectedIndexChanged(object sender, EventArgs e)
