@@ -1,0 +1,10 @@
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\bin\Debug\StudentsList.exe.config
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\bin\Debug\StudentsList.exe
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\bin\Debug\StudentsList.pdb
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.csproj.AssemblyReference.cache
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.Form1.resources
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.Properties.Resources.resources
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.csproj.GenerateResource.cache
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.csproj.CoreCompileInputs.cache
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.exe
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\01 GUI and Files 01_03_2022\WinFormsDemo\WindowsFormsApp1\StudentsList\obj\Debug\StudentsList.pdb
