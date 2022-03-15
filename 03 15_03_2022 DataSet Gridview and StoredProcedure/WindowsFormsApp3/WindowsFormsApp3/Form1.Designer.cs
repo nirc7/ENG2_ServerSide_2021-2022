@@ -41,6 +41,8 @@ namespace WindowsFormsApp3
             this.btnDBfromDT = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.btnSPgetFamily = new System.Windows.Forms.Button();
+            this.btnSPGetTable = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,11 +164,35 @@ namespace WindowsFormsApp3
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
+            // btnSPgetFamily
+            // 
+            this.btnSPgetFamily.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.btnSPgetFamily.Location = new System.Drawing.Point(16, 314);
+            this.btnSPgetFamily.Name = "btnSPgetFamily";
+            this.btnSPgetFamily.Size = new System.Drawing.Size(127, 31);
+            this.btnSPgetFamily.TabIndex = 12;
+            this.btnSPgetFamily.Text = "SP get Family";
+            this.btnSPgetFamily.UseVisualStyleBackColor = true;
+            this.btnSPgetFamily.Click += new System.EventHandler(this.btnSPgetFamily_Click);
+            // 
+            // btnSPGetTable
+            // 
+            this.btnSPGetTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.btnSPGetTable.Location = new System.Drawing.Point(167, 314);
+            this.btnSPGetTable.Name = "btnSPGetTable";
+            this.btnSPGetTable.Size = new System.Drawing.Size(127, 31);
+            this.btnSPGetTable.TabIndex = 13;
+            this.btnSPGetTable.Text = "SP get Table";
+            this.btnSPGetTable.UseVisualStyleBackColor = true;
+            this.btnSPGetTable.Click += new System.EventHandler(this.btnSPGetTable_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(653, 453);
+            this.Controls.Add(this.btnSPGetTable);
+            this.Controls.Add(this.btnSPgetFamily);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDBfromDT);
@@ -202,6 +228,8 @@ namespace WindowsFormsApp3
         private System.Windows.Forms.Button btnDBfromDT;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnSPgetFamily;
+        private System.Windows.Forms.Button btnSPGetTable;
     }
 }
 
