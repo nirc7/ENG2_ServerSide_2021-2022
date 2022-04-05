@@ -4,14 +4,17 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+    [EnableCors("*","*","*")]
     [RoutePrefix("api/RWstudents")]
     public class RWStudentsController : ApiController
     {
         [HttpGet]
+        //[DisableCors]
         public IHttpActionResult LoadStudents()
         {
             try
