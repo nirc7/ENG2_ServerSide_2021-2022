@@ -34,3 +34,8 @@ C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerCo
 C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
 C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\BLL.dll
 C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\BLL.pdb
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\DAL.dll
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\DAL.pdb
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\System.Web.Cors.dll
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\System.Web.Http.Cors.dll
+C:\Users\RUPPIN\Desktop\ENG2_ServerSide_2021-2022\07-1 05_04_2022 ClientServerConnection\ServerSideWEBAPI\WebApplication1\WebApplication1\bin\System.Web.Http.Cors.xml

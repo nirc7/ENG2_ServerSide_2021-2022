@@ -1,6 +1,7 @@
 ﻿using BLL;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -20,51 +21,55 @@ namespace DAL
 
         public static Student Login(StudentLoginDetail value)
         {
-
+            SqlDataReader reader = null;
             try
             {
                 string comm =
                     $" SELECT * FROM TBStudents " +
                     $" WHERE Email='{value.Email}' and Password= '{value.Password}'";
-                SqlDataReader reader= ExcNQ(comm);
+                reader = ExcNQ(comm);
                 if (reader.Read())
                 {
-
+                    return new Student()
+                    {
+                        Id = (int)reader["Id"],
+                        Name = (string)reader["Name"],
+                        Email = (string)reader["Email"],
+                        Password = (string)reader["Password"]
+                    };
                 }
                 else
                 {
                     return null;
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                new InvalidOperationException("error in ExcNQ DAL " + ex.Message);
             }
             finally
             {
-
+                reader.Close();
+                con.Close();
             }
+            return null;
         }
 
         public static SqlDataReader ExcNQ(string command)
         {
+            SqlDataReader reader = null;
             try
             {
                 SqlCommand comm = new SqlCommand(command, con);
                 con.Open();
-                SqlDataReader reader = comm.ExecuteReader();
+                reader = comm.ExecuteReader();
                 return reader;
-
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-
+                new InvalidOperationException("error in ExcNQ DAL " + ex.Message);
             }
-            finally 
-            {
-                con.Close();
-            }
+            return reader;
         }
     }
 }
